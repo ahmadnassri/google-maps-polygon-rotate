@@ -11,7 +11,7 @@ module.exports = function (grunt) {
     uglify: {
       dist: {
         files: {
-          'dist/google.maps.Polygon.rotate.js': [
+          'dist/google.maps.Polygon.rotate.min.js': [
             'src/google.maps.LatLng.distanceTo.js',
             'src/google.maps.LatLng.rotate.js',
             'src/google.maps.Polygon.getCenter.js',

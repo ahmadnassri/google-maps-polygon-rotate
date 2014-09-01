@@ -1,0 +1,13 @@
+{
+  "name": "Google Maps Polygon Rotate Utilities",
+  "description": "Rotate a google.maps.Polygon on Google Maps V3 relative to a google.maps.LatLng",
+  "license": "MIT",
+  "repository": "https://github.com/ahmadnassri/google-maps-polygon-rotate",
+  "issues": "https://github.com/ahmadnassri/google-maps-polygon-rotate/issues",
+  "wiki": "https://github.com/ahmadnassri/google-maps-polygon-rotate/wiki",
+  "author": {
+    "name": "Ahmad Nassri",
+    "email": "ahmad@ahmadnassri.com",
+    "url": "ahmadnassri.com"
+  }
+}

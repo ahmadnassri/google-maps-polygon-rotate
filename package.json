@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "google-maps-rotate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rotate a google.maps.Polygon on Google Maps V3 relative to a google.maps.LatLng",
   "devDependencies": {
     "grunt": "^0.4.5",
