@@ -1,0 +1,12 @@
+{
+  "name": "google-maps-rotate",
+  "version": "1.0.0",
+  "description": "Rotate a google.maps.Polygon on Google Maps V3 relative to a google.maps.LatLng",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0"
+  }
+}

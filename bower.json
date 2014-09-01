@@ -1,0 +1,21 @@
+{
+  "name": "google-maps-rotate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ahmadnassri/google-maps-polygon-rotate",
+  "authors": [
+    "Ahmad Nassri <ahmad@ahmadnassri.com> (http:/www.ahmadnassri.com/)"
+  ],
+  "description": "Rotate a google.maps.Polygon on Google Maps V3 relative to a google.maps.LatLng",
+  "main": "dist/google.maps.Polygon.rotate.js",
+  "keywords": [
+    "Google",
+    "Maps",
+    "Polygon",
+    "Rotate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}
