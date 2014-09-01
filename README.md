@@ -2,7 +2,6 @@
 
 [![Bower version][bower-image]][bower-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
 [![Total views][sourcegraph-image]][sourcegraph-url]
 
 Rotate a `google.maps.Polygon` on Google Maps V3 relative to a `google.maps.LatLng`
@@ -27,7 +26,7 @@ Three quick start options are available:
 - [Download the latest release](https://github.com/ahmadnassri/google-maps-polygon-rotate/releases).
 - Clone the repo: 
   ```bash
-git clone git@github.com:ahmadnassri/google-maps-polygon-rotate.js.git
+git clone git@github.com:ahmadnassri/google-maps-polygon-rotate.git
 ```
 
 - Install with [Bower](http://bower.io) [![Bower version][bower-image]][bower-url]
@@ -160,18 +159,17 @@ For more information on SemVer, please visit <http://semver.org/>.
 
 Licensed under [the MIT license](LICENSE).
 
-[github-image]: https://badge.fury.io/gh/ahmadnassri%2Fgoogle-maps-polygon-rotate.js.png
-[bower-url]: http://badge.fury.io/bo/google-maps-polygon-rotate.js
-[bower-image]: https://badge.fury.io/bo/google-maps-polygon-rotate.js.png
-[codeclimate-url]: https://codeclimate.com/github/ahmadnassri/google-maps-polygon-rotate.js
-[codeclimate-image]: https://codeclimate.com/github/ahmadnassri/google-maps-polygon-rotate.js.png
-[coveralls-url]: https://coveralls.io/r/ahmadnassri/google-maps-polygon-rotate.js
-[coveralls-image]: https://coveralls.io/repos/ahmadnassri/google-maps-polygon-rotate.js/badge.png
-[sourcegraph-url]: https://sourcegraph.com/github.com/ahmadnassri/google-maps-polygon-rotate.js
-[sourcegraph-image]: https://sourcegraph.com/api/repos/github.com/ahmadnassri/google-maps-polygon-rotate.js/counters/views.png
+
+[github-image]: https://badge.fury.io/gh/ahmadnassri%2Fgoogle-maps-polygon-rotate.png
+[bower-url]: http://badge.fury.io/bo/google-maps-polygon-rotate
+[bower-image]: https://badge.fury.io/bo/google-maps-polygon-rotate.png
+[codeclimate-url]: https://codeclimate.com/github/ahmadnassri/google-maps-polygon-rotate
+[codeclimate-image]: https://codeclimate.com/github/ahmadnassri/google-maps-polygon-rotate/badges/gpa.svg
+[sourcegraph-url]: https://sourcegraph.com/github.com/ahmadnassri/google-maps-polygon-rotate
+[sourcegraph-image]: https://sourcegraph.com/api/repos/github.com/ahmadnassri/google-maps-polygon-rotate/counters/views.png
 [gittip-url]: https://www.gittip.com/ahmadnassri/
 [gittip-image]: http://img.shields.io/gittip/ahmadnassri.svg
-[paypal-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UJ2B2BTK9VLRS&on0=project&os0=google-maps-polygon-rotate.js
+[paypal-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UJ2B2BTK9VLRS&on0=project&os0=google-maps-polygon-rotate
 [paypal-image]: http://img.shields.io/badge/PayPal-Donate-green.svg
 [tip4commit-url]: http://tip4commit.com/projects/640
 [tip4commit-image]: http://tip4commit.com/projects/640.svg
