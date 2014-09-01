@@ -1,7 +1,7 @@
 # Google Maps Polygon Rotate
 
-![Release][release-img] 
-![License][license-img]
+[![Release][release-img]][home-url]
+[![License][license-img]][home-url]
 [![Code Climate][codeclimate-img]][codeclimate-url]
 [![Test Coverage][coverage-img]][coverage-url]
 [![Build Status][travis-img]][travis-url]
@@ -161,8 +161,10 @@ For more information on SemVer, please visit <http://semver.org/>.
 
 Licensed under [the MIT license](LICENSE).
 
-
+[release-url]: https://github.com/ahmadnassri/google-maps-polygon-rotate/releases
 [release-img]: http://img.shields.io/github/release/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+
+[license-url]: opensource.org/licenses/MIT
 [license-img]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 
 [travis-url]: https://travis-ci.org/ahmadnassri/google-maps-polygon-rotate
