@@ -1,8 +1,7 @@
-# Google Maps Polygon Rotate Utilities ![GitHub version][github-image]
+# Google Maps Polygon Rotate Utilities ![Release][release-image]
 
-[![Bower version][bower-image]][bower-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
-[![Total views][sourcegraph-image]][sourcegraph-url]
+[![Test Coverage][coverage-image]][coverage-url]
 
 Rotate a `google.maps.Polygon` on Google Maps V3 relative to a `google.maps.LatLng`
 
@@ -130,7 +129,7 @@ Donate bitcoins to this project or make commits and get tips for it. If your com
 
 Donations are welcome to help support the continuous development of this project.
 
-[![GitTip][gittip-image]][gittip-url]
+[![GitTip][gratipay-image]][gratipay-url]
 [![PayPal][paypal-image]][paypal-url]
 
 ## Versioning
@@ -161,16 +160,19 @@ For more information on SemVer, please visit <http://semver.org/>.
 Licensed under [the MIT license](LICENSE).
 
 
-[github-image]: https://badge.fury.io/gh/ahmadnassri%2Fgoogle-maps-polygon-rotate.png
-[bower-url]: http://badge.fury.io/bo/google-maps-polygon-rotate
-[bower-image]: https://badge.fury.io/bo/google-maps-polygon-rotate.png
+[release-image]: http://img.shields.io/github/release/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+
 [codeclimate-url]: https://codeclimate.com/github/ahmadnassri/google-maps-polygon-rotate
-[codeclimate-image]: https://codeclimate.com/github/ahmadnassri/google-maps-polygon-rotate/badges/gpa.svg
-[sourcegraph-url]: https://sourcegraph.com/github.com/ahmadnassri/google-maps-polygon-rotate
-[sourcegraph-image]: https://sourcegraph.com/api/repos/github.com/ahmadnassri/google-maps-polygon-rotate/counters/views.png
-[gittip-url]: https://www.gittip.com/ahmadnassri/
-[gittip-image]: http://img.shields.io/gittip/ahmadnassri.svg
+[codeclimate-image]: http://img.shields.io/codeclimate/github/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+
+[coverage-url]: https://codeclimate.com/github/codeinchaos/google-maps-polygon-rotate
+[coverage-image]: http://img.shields.io/codeclimate/coverage/github/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+
+[gratipay-url]: https://gratipay.com/ahmadnassri/
+[gratipay-image]: http://img.shields.io/gratipay/ahmadnassri.svg?style=flat-square
+
 [paypal-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UJ2B2BTK9VLRS&on0=project&os0=google-maps-polygon-rotate
-[paypal-image]: http://img.shields.io/badge/PayPal-Donate-green.svg
-[tip4commit-url]: http://tip4commit.com/projects/640
-[tip4commit-image]: http://tip4commit.com/projects/640.svg
+[paypal-image]: http://img.shields.io/badge/PayPal-Donate-green.svg?style=flat-square
+
+[tip4commit-url]: http://tip4commit.com/projects/924
+[tip4commit-image]: http://tip4commit.com/projects/924.svg
