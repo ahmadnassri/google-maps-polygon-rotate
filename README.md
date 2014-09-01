@@ -1,8 +1,8 @@
-# Google Maps Polygon Rotate Utilities ![Release][release-image]
+# Google Maps Polygon Rotate ![Release][release-img] ![License][license-img]
 
-[![Code Climate][codeclimate-image]][codeclimate-url]
-[![Test Coverage][coverage-image]][coverage-url]
-[![Build Status][travis-image]][travis-url]
+[![Code Climate][codeclimate-img]][codeclimate-url]
+[![Test Coverage][coverage-img]][coverage-url]
+[![Build Status][travis-img]][travis-url]
 
 Rotate a `google.maps.Polygon` on Google Maps V3 relative to a `google.maps.LatLng`
 
@@ -13,7 +13,6 @@ Rotate a `google.maps.Polygon` on Google Maps V3 relative to a `google.maps.LatL
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Compiling](#compiling-)
 - [Contributing](#contributing)
-- [Contribute and Earn](#contribute-and-earn)
 - [Donating](#donating)
 - [Versioning](#versioning)
 - [Authors](#authors)
@@ -124,14 +123,14 @@ Editor preferences are available in the [editor config](.editorconfig) for easy 
 
 Donate bitcoins to this project or make commits and get tips for it. If your commit is accepted by project maintainer and there are bitcoins on its balance, you will get a tip!
 
-[![tip for next commit][tip4commit-image]][tip4commit-url]
+[![tip for next commit][tip4commit-img]][tip4commit-url]
 
 ## Donating
 
 Donations are welcome to help support the continuous development of this project.
 
-[![GitTip][gratipay-image]][gratipay-url]
-[![PayPal][paypal-image]][paypal-url]
+[![GitTip][gratipay-img]][gratipay-url]
+[![PayPal][paypal-img]][paypal-url]
 
 ## Versioning
 
@@ -161,22 +160,23 @@ For more information on SemVer, please visit <http://semver.org/>.
 Licensed under [the MIT license](LICENSE).
 
 
-[release-image]: http://img.shields.io/github/release/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+[release-img]: http://img.shields.io/github/release/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+[license-img]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 
 [travis-url]: https://travis-ci.org/ahmadnassri/google-maps-polygon-rotate
-[travis-image]: http://img.shields.io/travis/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+[travis-img]: http://img.shields.io/travis/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
 
 [codeclimate-url]: https://codeclimate.com/github/ahmadnassri/google-maps-polygon-rotate
-[codeclimate-image]: http://img.shields.io/codeclimate/github/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+[codeclimate-img]: http://img.shields.io/codeclimate/github/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
 
 [coverage-url]: https://codeclimate.com/github/codeinchaos/google-maps-polygon-rotate
-[coverage-image]: http://img.shields.io/codeclimate/coverage/github/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+[coverage-img]: http://img.shields.io/codeclimate/coverage/github/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
 
 [gratipay-url]: https://gratipay.com/ahmadnassri/
-[gratipay-image]: http://img.shields.io/gratipay/ahmadnassri.svg?style=flat-square
+[gratipay-img]: http://img.shields.io/gratipay/ahmadnassri.svg?style=flat-square
 
 [paypal-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UJ2B2BTK9VLRS&on0=project&os0=google-maps-polygon-rotate
-[paypal-image]: http://img.shields.io/badge/PayPal-Donate-green.svg?style=flat-square
+[paypal-img]: http://img.shields.io/badge/PayPal-Donate-green.svg?style=flat-square
 
 [tip4commit-url]: http://tip4commit.com/projects/924
-[tip4commit-image]: http://tip4commit.com/projects/924.svg
+[tip4commit-img]: http://tip4commit.com/projects/924.svg
