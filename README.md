@@ -1,6 +1,6 @@
 # Google Maps Polygon Rotate Utilities ![GitHub version][github-image]
 
-[![Bower version][bower-image][bower-url]
+[![Bower version][bower-image]][bower-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
 [![Total views][sourcegraph-image]][sourcegraph-url]
