@@ -16,7 +16,7 @@
  */
 
 google.maps.Polygon.prototype.rotate = function (angle, latLng) {
-  var coords = this.getPaths().pop().getArray();
+  var coords = this.getPath().getArray();
 
   coords.forEach(function (point, index) {
     coords[index] = point.rotate(angle, latLng);

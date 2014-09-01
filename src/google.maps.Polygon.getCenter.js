@@ -10,7 +10,7 @@
  */
 
  google.maps.Polygon.prototype.getCenter = function () {
-  var coords = this.getPaths().pop().getArray();
+  var coords = this.getPath().getArray();
 
   var bounds = new google.maps.LatLngBounds();
 
