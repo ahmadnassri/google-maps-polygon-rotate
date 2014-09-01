@@ -22,5 +22,5 @@ google.maps.Polygon.prototype.rotate = function (angle, latLng) {
     coords[index] = point.rotate(angle, latLng);
   });
 
-  gaza.setPaths(coords);
+  this.setPaths(coords);
 };
