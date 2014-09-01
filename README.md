@@ -29,7 +29,7 @@ Three quick start options are available:
 git clone git@github.com:ahmadnassri/google-maps-polygon-rotate.git
 ```
 
-- Install with [Bower](http://bower.io) [![Bower version][bower-image]][bower-url]
+- Install with [Bower](http://bower.io)
   ```bash
 bower install google-maps-polygon-rotate
 ```
@@ -47,6 +47,7 @@ google-maps-polygon-rotate/
     ├── google.maps.LatLng.rotate.js
     ├── google.maps.Polygon.getCenter.js
     └── google.maps.Polygon.rotate.js
+```
 
 ### Sample Usage
 
