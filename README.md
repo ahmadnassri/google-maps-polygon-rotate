@@ -2,6 +2,7 @@
 
 [![Code Climate][codeclimate-image]][codeclimate-url]
 [![Test Coverage][coverage-image]][coverage-url]
+[![Build Status][travis-image]][travis-url]
 
 Rotate a `google.maps.Polygon` on Google Maps V3 relative to a `google.maps.LatLng`
 
@@ -161,6 +162,9 @@ Licensed under [the MIT license](LICENSE).
 
 
 [release-image]: http://img.shields.io/github/release/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
+
+[travis-url]: https://travis-ci.org/ahmadnassri/google-maps-polygon-rotate
+[travis-image]: http://img.shields.io/travis/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
 
 [codeclimate-url]: https://codeclimate.com/github/ahmadnassri/google-maps-polygon-rotate
 [codeclimate-image]: http://img.shields.io/codeclimate/github/ahmadnassri/google-maps-polygon-rotate.svg?style=flat-square
