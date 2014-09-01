@@ -1,7 +1,7 @@
 # Google Maps Polygon Rotate
 
-[![Release][release-img]][home-url]
-[![License][license-img]][home-url]
+[![Release][release-img]][release-url]
+[![License][license-img]][license-url]
 [![Code Climate][codeclimate-img]][codeclimate-url]
 [![Test Coverage][coverage-img]][coverage-url]
 [![Build Status][travis-img]][travis-url]
