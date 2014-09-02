@@ -1,5 +1,5 @@
 /**
- * google.maps.Polygon.rotate() — Calculates a polygon's center point
+ * google.maps.Polygon.rotate() - Calculates a polygon's center point
  * @author Ahmad Nassri <ahmad@ahmadnassri.com> (http:/www.ahmadnassri.com/)
  * @repository https://github.com/ahmadnassri/google-maps-rotate
  * @license MIT

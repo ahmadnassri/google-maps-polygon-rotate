@@ -1,5 +1,5 @@
 /**
- * google.maps.Polygon.rotate() — Calculates the Distance to another google.maps.LatLng object
+ * google.maps.Polygon.rotate() - Calculates the Distance to another google.maps.LatLng object
  * @author Ahmad Nassri <ahmad@ahmadnassri.com> (http:/www.ahmadnassri.com/)
  * @repository https://github.com/ahmadnassri/google-maps-rotate
  * @license MIT

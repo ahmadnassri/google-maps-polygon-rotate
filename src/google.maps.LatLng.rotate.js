@@ -1,5 +1,5 @@
 /**
- * google.maps.Polygon.rotate() — Rotates a google.maps.LatLng relative to another google.maps.LatLng
+ * google.maps.Polygon.rotate() - Rotates a google.maps.LatLng relative to another google.maps.LatLng
  * @author Ahmad Nassri <ahmad@ahmadnassri.com> (http:/www.ahmadnassri.com/)
  * @repository https://github.com/ahmadnassri/google-maps-rotate
  * @license MIT
