@@ -45,7 +45,7 @@ google-maps-polygon-rotate/
 │   └── google.maps.Polygon.rotate.min.js
 └── src
     ├── google.maps.LatLng.distanceTo.js
-    ├── google.maps.LatLng.rotate.js
+    ├── google.maps.Point.rotate.js
     ├── google.maps.Polygon.getCenter.js
     └── google.maps.Polygon.rotate.js
 ```
