@@ -17,9 +17,12 @@
 
 google.maps.Polygon.prototype.rotate = function (angle, latLng) {
   var coords = this.getPath().getArray();
+  var origin = this.getMap().getProjection().fromLatLngToPoint(latLng);
+  var polygon = this;
 
   coords.forEach(function (point, index) {
-    coords[index] = point.rotate(angle, latLng);
+    pixelCoord = polygon.getMap().getProjection().fromLatLngToPoint(point).rotate(angle, origin);
+    coords[index] = polygon.getMap().getProjection().fromPointToLatLng(pixelCoord);
   });
 
   this.setPaths(coords);
