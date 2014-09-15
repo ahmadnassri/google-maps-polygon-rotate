@@ -3,6 +3,7 @@
  * @venus-fixture-reset false
  * @venus-fixture map.fixture.html
  * @venus-include map.fixture.js
+ * @venus-code ../src/google.maps.Point.rotate.js
  * @venus-code ../src/google.maps.LatLng.rotate.js
  * @venus-code ../src/google.maps.LatLng.distanceTo.js
  * @venus-code ../src/google.maps.Polygon.getCenter.js
@@ -36,6 +37,6 @@ describe("Polygon", function() {
 
     var encoded = google.maps.geometry.encoding.encodePath(poly.getPath());
 
-    expect(encoded).to.equal('_ntwCp|fjKshrk@xl{tAd`qsAvxhGqv}f@qfe}A');
+    expect(encoded).to.equal('}htwC`kpgKmdii@xl{tA`}ysAvxhGswoi@qfe}A');
   });
 });
