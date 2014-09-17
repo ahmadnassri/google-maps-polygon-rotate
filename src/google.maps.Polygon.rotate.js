@@ -15,14 +15,19 @@
  * @return {Number} Returns A google.maps.LatLng with new coordinates
  */
 
-google.maps.Polygon.prototype.rotate = function (angle, latLng) {
+google.maps.Polygon.prototype.rotate = function (angle, latLng, map) {
+  var gmap = map || this.getMap();
+  if (gmap===undefined) {
+    console.warn('No valid google maps object found');
+    return;
+  }
   var coords = this.getPath().getArray();
-  var origin = this.getMap().getProjection().fromLatLngToPoint(latLng);
+  var origin = gmap.getProjection().fromLatLngToPoint(latLng);
   var polygon = this;
 
   coords.forEach(function (point, index) {
-    pixelCoord = polygon.getMap().getProjection().fromLatLngToPoint(point).rotate(angle, origin);
-    coords[index] = polygon.getMap().getProjection().fromPointToLatLng(pixelCoord);
+    pixelCoord = gmap.getProjection().fromLatLngToPoint(point).rotate(angle, origin);
+    coords[index] = gmap.getProjection().fromPointToLatLng(pixelCoord);
   });
 
   this.setPaths(coords);

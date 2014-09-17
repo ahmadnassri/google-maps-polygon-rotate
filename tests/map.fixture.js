@@ -5,6 +5,13 @@ google.maps.event.addDomListener(window, 'load', function initialize() {
     mapTypeId: google.maps.MapTypeId.TERRAIN
   });
 
+  google.maps.event.addListenerOnce(map, "projection_changed", function() {
+    done();
+  });
+  setTimeout(function(){
+    done();
+  }, 500);  // Timeout
+
   // Define the LatLng coordinates for the polygon's path.
   window.triangleCoords = [
     new google.maps.LatLng(25.774252, -80.190262),
