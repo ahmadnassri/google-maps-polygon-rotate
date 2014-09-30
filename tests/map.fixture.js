@@ -1,5 +1,5 @@
 google.maps.event.addDomListener(window, 'load', function initialize() {
-  var map = new google.maps.Map(document.getElementById('map-canvas'), {
+  var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 5,
     center: new google.maps.LatLng(24.886436490787712, -70.2685546875),
     mapTypeId: google.maps.MapTypeId.TERRAIN

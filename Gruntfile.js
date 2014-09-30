@@ -14,6 +14,7 @@ module.exports = function (grunt) {
           'dist/google.maps.Polygon.rotate.min.js': [
             'src/google.maps.LatLng.distanceTo.js',
             'src/google.maps.LatLng.rotate.js',
+            'src/google.maps.Point.rotate.js',
             'src/google.maps.Polygon.getCenter.js',
             'src/google.maps.Polygon.rotate.js'
           ]

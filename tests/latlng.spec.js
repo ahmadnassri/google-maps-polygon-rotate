@@ -3,6 +3,7 @@
  * @venus-fixture-reset false
  * @venus-fixture map.fixture.html
  * @venus-include map.fixture.js
+ * @venus-code ../src/google.maps.Point.rotate.js
  * @venus-code ../src/google.maps.LatLng.rotate.js
  * @venus-code ../src/google.maps.LatLng.distanceTo.js
  * @venus-code ../src/google.maps.Polygon.getCenter.js

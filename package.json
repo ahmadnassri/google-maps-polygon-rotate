@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "venus run --test tests --coverage --phantom"
+    "test": "venus run --test tests --coverage --phantom",
+    "venus": "venus run --test tests"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

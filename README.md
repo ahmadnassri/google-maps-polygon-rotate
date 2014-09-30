@@ -45,7 +45,7 @@ google-maps-polygon-rotate/
 │   └── google.maps.Polygon.rotate.min.js
 └── src
     ├── google.maps.LatLng.distanceTo.js
-    ├── google.maps.LatLng.rotate.js
+    ├── google.maps.Point.rotate.js
     ├── google.maps.Polygon.getCenter.js
     └── google.maps.Polygon.rotate.js
 ```
@@ -152,10 +152,8 @@ For more information on SemVer, please visit <http://semver.org/>.
 
 ## Authors
 
-**Ahmad Nassri**
-
-- Twitter: [@AhmadNassri](http://twitter.com/ahmadnassri)
-- Website: [ahmadnassri.com](http://ahmadnassri.com)
+* [Ahmad Nassri](http://ahmadnassri.com)
+* [Barnabas Birmacher](https://github.com/birmacher)
 
 ## License
 
