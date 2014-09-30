@@ -1,5 +1,16 @@
+/**
+ * google.maps.Polygon.rotate() - Calculates a polygon's center point
+ * @author Ahmad Nassri <ahmad@ahmadnassri.com> (http:/www.ahmadnassri.com/)
+ * @repository https://github.com/ahmadnassri/google-maps-rotate
+ * @license MIT
+ *
+ * @method getCenter
+ *
+ * @return {Object} A google.maps.LatLng object
+ */
+
 google.maps.Point.prototype.rotate = function (angle, origin) {
-  rad = angle * (Math.PI / 180.0); 
+  var rad = angle * (Math.PI / 180.0);
 
   var x = this.x - origin.x;
   var y = this.y - origin.y;

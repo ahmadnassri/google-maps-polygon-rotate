@@ -16,18 +16,21 @@
  */
 
 google.maps.Polygon.prototype.rotate = function (angle, latLng, map) {
-  var gmap = map || this.getMap();
-  if (gmap===undefined) {
+  map = map || this.getMap();
+
+  if (map === undefined) {
     console.warn('No valid google maps object found');
     return;
   }
+
   var coords = this.getPath().getArray();
-  var origin = gmap.getProjection().fromLatLngToPoint(latLng);
-  var polygon = this;
+  var projection = map.getProjection();
+  var origin = projection.fromLatLngToPoint(latLng);
 
   coords.forEach(function (point, index) {
-    pixelCoord = gmap.getProjection().fromLatLngToPoint(point).rotate(angle, origin);
-    coords[index] = gmap.getProjection().fromPointToLatLng(pixelCoord);
+    var pixelCoord = projection.fromLatLngToPoint(point).rotate(angle, origin);
+
+    coords[index] = projection.fromPointToLatLng(pixelCoord);
   });
 
   this.setPaths(coords);

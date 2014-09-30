@@ -152,10 +152,8 @@ For more information on SemVer, please visit <http://semver.org/>.
 
 ## Authors
 
-**Ahmad Nassri**
-
-- Twitter: [@AhmadNassri](http://twitter.com/ahmadnassri)
-- Website: [ahmadnassri.com](http://ahmadnassri.com)
+* [Ahmad Nassri](http://ahmadnassri.com)
+* [Barnabas Birmacher](https://github.com/birmacher)
 
 ## License
 

@@ -15,14 +15,20 @@ var center = {
   lng: -72.473816
 };
 
-describe("Polygon", function() {
-  it("should compute center points", function() {
+describe('Polygon', function() {
+  before(function () {
+    google.maps.event.addListenerOnce(map, 'projection_changed', function() {
+      done();
+    });
+  });
+
+  it('should compute center points', function () {
     var polyCenter = poly.getCenter();
     expect(polyCenter.lat()).to.equal(center.lat);
     expect(polyCenter.lng()).to.equal(center.lng);
   });
 
-  it("should should rotate a polygon 90 degrees around its center", function() {
+  it('should should rotate a polygon 90 degrees around its center', function () {
     var polyCenter = poly.getCenter();
     poly.rotate(90, polyCenter);
 
@@ -30,7 +36,7 @@ describe("Polygon", function() {
     expect(polyCenter.lng()).to.equal(center.lng);
   });
 
-  it("should should rotate 90 degrees to new paths", function() {
+  it('should should rotate 90 degrees to new paths', function () {
     var polyCenter = poly.getCenter();
 
     poly.rotate(90, polyCenter);
