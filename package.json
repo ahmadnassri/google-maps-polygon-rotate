@@ -13,7 +13,7 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-uglify": "^2.2.0",
     "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.0.0",
     "venus": "^2.3.4"
